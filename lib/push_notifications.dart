@@ -1,8 +1,6 @@
 import 'package:bg_fg_notifications/main.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-// import 'package:notification/main.dart';
-// import 'package:push_notifications_firebase_flutter/main.dart';
 
 class PushNotifications {
   static final _firebaseMessaging = FirebaseMessaging.instance;
