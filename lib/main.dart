@@ -10,7 +10,7 @@ import 'home.dart';
 
 final navigatorKey = GlobalKey<NavigatorState>();
 
-// function to lisen to background changes
+// function to listen to background changes
 Future _firebaseBackgroundMessage(RemoteMessage message) async {
   if (message.notification != null) {
     print("Some notification Received");
@@ -68,10 +68,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       navigatorKey: navigatorKey,
       title: 'Push Notifications',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 58, 164, 183)),
         useMaterial3: true,
       ),
       routes: {

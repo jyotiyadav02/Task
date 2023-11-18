@@ -24,7 +24,7 @@ class _MessageState extends State<Message> {
     }
 
     return Scaffold(
-      appBar: AppBar(title: Text("Your Message")),
+      appBar: AppBar(title: Text("Your Message"),backgroundColor: Colors.amber,),
       body: Center(child: Text(payload.toString())),
     );
   }

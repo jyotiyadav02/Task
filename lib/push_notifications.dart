@@ -54,13 +54,19 @@ class PushNotifications {
     required String title,
     required String body,
     required String payload,
+    
+
   }) async {
     const AndroidNotificationDetails androidNotificationDetails =
         AndroidNotificationDetails('your channel id', 'your channel name',
             channelDescription: 'your channel description',
             importance: Importance.max,
             priority: Priority.high,
-            ticker: 'ticker');
+            ticker: 'ticker',
+            playSound: true,
+            sound: RawResourceAndroidNotificationSound('sound'),
+
+            );
     const NotificationDetails notificationDetails =
         NotificationDetails(android: androidNotificationDetails);
     await _flutterLocalNotificationsPlugin
