@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755447915710",
+    "project_id": "bgfgnotifications",
+    "storage_bucket": "bgfgnotifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755447915710:android:a8e29c04f441a3c429eaef",
+        "android_client_info": {
+          "package_name": "com.example.bg_fg_notifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHV__wy7wxUyUtzMfnpaW5Y23873pBSEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
